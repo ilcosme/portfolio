@@ -12,15 +12,21 @@ header{
 
 .banner{
     width: 80vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid white;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
 }
 .enlaces{
     margin-left: 2vw;
+}
+.aplogo{
+    position: absolute;
+    left: 0;
+    margin-left: 10vw;
 }
 .fotocontainer{
     height: 30vh;
