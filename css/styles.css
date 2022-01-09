@@ -27,12 +27,15 @@ header{
 button{
     margin-left: 2vw;
     margin-right: 1vw;
-    background: rgb(190, 190, 190);
-    border-radius: 10px;
+    background: rgb(15, 166, 212);
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     padding: 0.5em 1em;
     color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 .aplogo{
@@ -52,4 +55,24 @@ button{
     max-width: 100%;
     object-fit: contain;
     
+}
+
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .iconos{
+        width: 20px;
+        height: 20px;
+    }
+
+    button{
+       transform: scale(0.8);
+    }
+    
+    .banner{
+        height: 30px;
+    }
 }
