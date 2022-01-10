@@ -69,6 +69,18 @@ button:hover{
     height: 30px;
 }
 
+.fotofer{
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: -10vh;
+    margin-left: 10vw;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 80px;
+}
+
 @media only screen and (max-width: 950px) {
 
     .fotocontainer{
@@ -85,9 +97,19 @@ button:hover{
     button{
        transform: scale(0.8);
     }
+
+    button:hover{
+        transform: scale(0.9);
+    }
     
     .banner{
         height: 40px;
+    }
+
+    .fotofer{
+        margin-top: -10vh;
+        width: 100px;
+        height: 100px;
     }
 
 }
@@ -103,12 +125,16 @@ button:hover{
        transform: scale(0.6);
     }
     
+    button:hover{
+        transform: scale(0.7);
+    }
+
     .banner{
         height: 25px;
     }
 
     .fotocontainer{
-        height: 10vh;
+        height: 15vh;
         border: 2px solid white;
         border-radius: 15px;
     }
@@ -116,6 +142,12 @@ button:hover{
     .aplogo{
         width: 130px;
         height: 25px;
+    }
+
+    .fotofer{
+        margin-top: -5vh;
+        width: 75px;
+        height: 75px;
     }
 
 }
